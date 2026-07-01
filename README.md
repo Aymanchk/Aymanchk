@@ -82,9 +82,9 @@
 |--------|------|-------|
 | **Fair Splitter** `в разработке` | Flutter · Django/DRF · PostgreSQL | Честное деление расходов: по чекам, долям и доходу, с минимумом переводов |
 | [SmartBishkek](https://github.com/Aymanchk/SmartBishkek) | Flutter · Next.js · Django/DRF | Платформа мониторинга городской инфраструктуры |
-| [Car Price Prediction](https://github.com/Aymanchk) | Python · Linear Regression | Предсказание цены авто, R² = 96.3% |
-| [Intrusion Detection](https://github.com/Aymanchk) | Python · K-Means | Обнаружение аномалий в сетевом трафике |
-| [Reinforcement Farmer](https://github.com/Aymanchk) | Python · Q-Learning | Агент, обучающийся через подкрепление |
+| [Car Price Prediction](https://github.com/Aymanchk/CarPricePrediction_LinearRegression) | Python · Linear Regression | Предсказание цены авто, R² = 96.3% |
+| [Intrusion Detection](https://github.com/Aymanchk/unsupervised_cybersecurityIntrusionDetection) | Python · K-Means | Обнаружение аномалий в сетевом трафике |
+| [Reinforcement Farmer](https://github.com/Aymanchk/Reinforcement_Farmer) | Python · Q-Learning | Агент, обучающийся через подкрепление |
 
 ---
 
