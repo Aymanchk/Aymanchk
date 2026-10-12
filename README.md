@@ -9,19 +9,19 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/dark/s-about.svg">
-  <img src="assets/light/s-about.svg" width="100%" alt="Обо мне">
+  <img src="assets/light/s-about.svg" width="100%" alt="About me">
 </picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/dark/terminal.svg">
-  <img src="assets/light/terminal.svg" width="100%" alt="Backend-разработчик в SU Solutions, co-founder Corstack Solutions. Сейчас в фокусе — Esep: честное деление счёта (Flutter + Django/DRF), а также ML: предсказательные модели, кластеризация, RL.">
+  <img src="assets/light/terminal.svg" width="100%" alt="Backend developer at SU Solutions, co-founder of Corstack Solutions. Current focus: Esep, fair bill splitting (Flutter + Django/DRF), and ML: predictive models, clustering, RL.">
 </picture>
 
 <br>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/dark/s-stack.svg">
-  <img src="assets/light/s-stack.svg" width="100%" alt="Стек">
+  <img src="assets/light/s-stack.svg" width="100%" alt="Stack">
 </picture>
 
 <picture>
@@ -35,7 +35,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/dark/s-contact.svg">
-  <img src="assets/light/s-contact.svg" width="100%" alt="Контакты">
+  <img src="assets/light/s-contact.svg" width="100%" alt="Contact">
 </picture>
 
 <p align="center">
@@ -48,5 +48,5 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/dark/footer.svg">
-  <img src="assets/light/footer.svg" width="100%" alt="Строю продукты, которыми пользуются люди.">
+  <img src="assets/light/footer.svg" width="100%" alt="Building products that people actually use.">
 </picture>

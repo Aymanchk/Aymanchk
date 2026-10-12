@@ -483,11 +483,11 @@ def terminal(t):
     script = [
         ("whoami", [[("ink", "Aiman"), ("faint", "  ·  "), ("soft", "backend developer, AI engineer, co-founder")]]),
         ("cat focus.txt", [
-            [("red", "→ "), ("ink", "Esep"), ("soft", "  честное деление счёта: Flutter + Django/DRF")],
+            [("red", "→ "), ("ink", "Esep"), ("soft", "  fair bill splitting: Flutter + Django/DRF")],
             [("red", "→ "), ("ink", "Backend"), ("soft", " @ SU Solutions  ·  "), ("ink", "Co-founder"), ("soft", " @ Corstack Solutions")],
-            [("red", "→ "), ("ink", "ML"), ("soft", "  предсказательные модели, кластеризация, RL")],
+            [("red", "→ "), ("ink", "ML"), ("soft", "  predictive models, clustering, RL")],
         ]),
-        ("echo $MOTTO", [[("ink", "Путь в тысячу ли начинается с первого шага.")]]),
+        ("echo $MOTTO", [[("ink", "A journey of a thousand miles begins with a single step.")]]),
     ]
     lines, y, at = "", 112, u0 + ud + 0.3
     for i, (cmd, outs) in enumerate(script):
@@ -504,7 +504,7 @@ def terminal(t):
     lines += prompt(y, at) + f'<rect class="blink" style="animation-delay:{at:.2f}s" x="{px}" y="{y - 12.5}" width="8" height="16" fill="{t["ink"]}"/>'
 
     body = f'<g clip-path="url(#unroll)">{paper}{lines}</g>' + rod(22, 416) + rod(834, 440, tassel)
-    return svg(W, h, body, defs, css, "Терминал: whoami, cat focus.txt, echo $MOTTO")
+    return svg(W, h, body, defs, css, "Terminal: whoami, cat focus.txt, echo $MOTTO")
 
 
 # ---------- stack ----------
@@ -549,7 +549,7 @@ def stack(t):
             )
             x += w + 10
             k += 1
-    return svg(W, h, body, WORN, css, "Стек: " + ", ".join(i for _, _, it in STACK for i in it))
+    return svg(W, h, body, WORN, css, "Stack: " + ", ".join(i for _, _, it in STACK for i in it))
 
 
 # ---------- contacts ----------
@@ -617,10 +617,10 @@ def footer(t):
     body += koi("M-70,154 C200,170 380,110 560,150 S820,160 950,120", 38, -21, [(6, 3, 9), (-12, -3, 5)], 0.75, 0.5)
     body += (
         f'<text class="q in" style="animation-delay:.3s" x="{W / 2}" y="54" text-anchor="middle" fill="{t["ink"]}">'
-        "Строю продукты, которыми пользуются люди.</text>"
+        "Building products that people actually use.</text>"
     )
     body += front
-    return svg(W, h, body, defs, css, "Строю продукты, которыми пользуются люди.")
+    return svg(W, h, body, defs, css, "Building products that people actually use.")
 
 
 def main():
@@ -632,9 +632,9 @@ def main():
             "terminal": terminal(t),
             "stack": stack(t),
             "footer": footer(t),
-            "s-about": section(t, ">_", "Обо мне", "WHOAMI  ·  ПУТЬ"),
-            "s-stack": section(t, "#", "Стек", "TOOLS  ·  МАСТЕРСТВО"),
-            "s-contact": section(t, "@", "Контакты", "PING  ·  СВЯЗЬ"),
+            "s-about": section(t, ">_", "About me", "WHOAMI  ·  THE PATH"),
+            "s-stack": section(t, "#", "Stack", "TOOLS  ·  THE CRAFT"),
+            "s-contact": section(t, "@", "Contact", "PING  ·  REACH OUT"),
         }
         files.update({f"c-{slug}": contact(t, mark, label) for slug, mark, label in CONTACTS})
         for name, data in files.items():
